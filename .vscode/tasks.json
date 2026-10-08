@@ -1,0 +1,10 @@
+{
+  // Atalho no Antigravity/VS Code: Ctrl+Shift+P → "Tasks: Run Task" → escolha a tarefa.
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "▶ Rodar site (localhost:5180)", "type": "npm", "script": "dev", "isBackground": true, "problemMatcher": [], "group": { "kind": "build", "isDefault": true } },
+    { "label": "📦 Gerar versão final (dist/)", "type": "npm", "script": "build", "problemMatcher": [] },
+    { "label": "🗜 Gerar .zip para publicar", "type": "npm", "script": "entrega", "problemMatcher": [] },
+    { "label": "⬇ Instalar dependências (1ª vez)", "type": "shell", "command": "npm install", "problemMatcher": [] }
+  ]
+}

@@ -1,0 +1,1 @@
+import{n as e}from"./config-CoEuAfjr.js";document.querySelectorAll(`a[href^="https://wa.me/"]`).forEach(function(t){t.href=e()});var t=new Date,n=document.querySelector(`[data-date]`);n&&(n.textContent=t.toLocaleDateString(`pt-BR`,{day:`2-digit`,month:`short`}).replace(`.`,``));var r=document.querySelector(`[data-year]`);r&&(r.textContent=t.getFullYear());
